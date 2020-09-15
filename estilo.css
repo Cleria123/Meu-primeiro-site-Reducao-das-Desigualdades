@@ -1,5 +1,31 @@
 body, html{
     margin: 0%;
+
+}
+header{
+    background-color: skyblue;
+    color: black;
+    height:18,5%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 8%;
+    top: 0%;
+    margin-left: 5%;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+}
+li{
+    float: left;
+    padding: 2% 2% 2% 2% ;
+}
+li:hover{
+    background-color: steelblue;
 }
 #bloco1{
     border: solid white;
@@ -114,4 +140,10 @@ body, html{
 }
 #vi{
     padding-top: 30%;
+}
+footer{
+    background-color: skyblue;
+    float: left;
+    width: 100%;
+    color: black;
 }
